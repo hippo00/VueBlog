@@ -9,8 +9,8 @@ const state = {
   accessToken: localStorage.getItem(LS_KEY_ACCESS_TOKEN),  // 这个不要修改，这个不要修改，这个不要修改。当前登录用户的 GitHub AccessToken
   auth: {
     proxy: 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token', // 这个不要修改，这个不要修改，这个不要修改。
-    clientID: '5b4cde4044d29',   // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client ID
-    clientSecret: 'd506c402b90890d4cc584b1730623b0a87'  // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client Secret
+    clientID: 'fcf35086cf783b953cf5',   // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client ID
+    clientSecret: '6cfddd1814510dfec7490c69c551f97669b5b158'  // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client Secret
   },
   gitHubUser: null,  // 这个不要修改，这个不要修改，这个不要修改。
   gitHubUsername: 'hippo00',  // 修改成你自己的 GitHub 账号

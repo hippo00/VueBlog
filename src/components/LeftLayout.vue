@@ -14,11 +14,11 @@
         </ul>
         <ul class="left-menu">
           <router-link :class="isBlog ? 'selected-menu':''" tag="li" :to="{name: 'BlogList'}"><span>个人笔记</span></router-link>
-          <router-link :class="isWebNav ? 'selected-menu':''" tag="li" :to="{name: 'WebNav'}"><span>前端导航</span></router-link>
+          <!-- <router-link :class="isWebNav ? 'selected-menu':''" tag="li" :to="{name: 'WebNav'}"><span></span></router-link> -->
           <router-link :class="isAboutMe ? 'selected-menu':''" tag="li" :to="{name: 'AboutMe'}"><span>关于我</span></router-link>
         </ul>
         <div v-if="showQQGroup" class="qq-group">
-          <img src="static/img/qq-group.jpg">
+          <img src="static/img/My-wechat.jpeg">
         </div>
         <div class="copyright">@ {{copyright}}</div>
       </div>
@@ -32,7 +32,7 @@
           <!--标题-->
           <h1 class="nav_title"><p>个人笔记</p></h1>
           <!--右侧图标-->
-<!--           <div class="nav_r">
+      <!-- <div class="nav_r">
             <a href="javascript:;">
               <i class="icon-search" />
             </a>

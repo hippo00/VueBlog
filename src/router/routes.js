@@ -15,12 +15,12 @@ export default [
     component: resolve => require.ensure([], () => resolve(require('@/views/WebNav.vue')), 'WebNav')
   },
   {
-    path: '/Blog',
-    component: resolve => require.ensure([], () => resolve(require('@/views/Blog.vue')), 'Blog'),
+    path: '/YanFei',
+    component: resolve => require.ensure([], () => resolve(require('@/views/Blog.vue')), 'YanFei'),
     children: blogRoutes
   },
   {
     path: '*',
-    redirect: '/Blog'
+    redirect: '/YanFei'
   }
 ]

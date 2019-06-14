@@ -6,7 +6,7 @@ export default [
     }
   },
   {
-    path: 'BlogList',
+    path: 'MyBlog',
     name: 'BlogList',
     component: resolve => require(['@/views/BlogList.vue'], resolve)
   },

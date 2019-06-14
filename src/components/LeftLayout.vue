@@ -53,7 +53,7 @@
           </ul>
           <ul class="left-menu">
             <router-link :class="isBlog ? 'selected-menu':''" tag="li" :to="{name: 'BlogList'}" @click.native="toggleMenu()"><span>个人笔记</span></router-link>
-            <router-link :class="isWebNav ? 'selected-menu':''" tag="li" :to="{name: 'WebNav'}" @click.native="toggleMenu()"><span>前端导航</span></router-link>
+            <!-- <router-link :class="isWebNav ? 'selected-menu':''" tag="li" :to="{name: 'WebNav'}" @click.native="toggleMenu()"><span>前端导航</span></router-link> -->
             <router-link :class="isAboutMe ? 'selected-menu':''" tag="li" :to="{name: 'AboutMe'}" @click.native="toggleMenu()"><span>关于我</span></router-link>
           </ul>
           <div class="copyright">@ {{copyright}}</div>

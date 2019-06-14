@@ -22,7 +22,7 @@ const state = {
   thirdPartySite: [  // 配置你想在左上角展示的第三方站点信息
     {
       img: 'static/img/github.png',  // 第三方站点图标，存放在「BGAIssueBlog-Web/static/img」目录中
-      url: 'https://github.com/Moonlightg'  // 第三方站点的 url
+      url: 'https://github.com/hippo00'  // 第三方站点的 url
     }
     // 如果还有其他站点需要显示，继续在这里追加
   ]

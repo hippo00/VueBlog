@@ -5,4 +5,4 @@
 * 地点：太原清徐县
 
 ## 链接
-> [My Blog](fyanfei.tk)
+> [My Blog](http://fyanfei.tk/.)

@@ -17,7 +17,11 @@
           <!-- <router-link :class="isWebNav ? 'selected-menu':''" tag="li" :to="{name: 'WebNav'}"><span></span></router-link> -->
           <router-link :class="isAboutMe ? 'selected-menu':''" tag="li" :to="{name: 'AboutMe'}"><span>关于我</span></router-link>
         </ul>
+         <div class="qq-group">
+          <span>拼搏到无能为力</span>
+          <span>付出到感动自己</span></div>
         <div v-if="showQQGroup" class="qq-group">
+        
           <img src="static/img/My-wechat.jpeg">
         </div>
         <div class="copyright">@ {{copyright}}</div>
@@ -56,6 +60,7 @@
             <!-- <router-link :class="isWebNav ? 'selected-menu':''" tag="li" :to="{name: 'WebNav'}" @click.native="toggleMenu()"><span>前端导航</span></router-link> -->
             <router-link :class="isAboutMe ? 'selected-menu':''" tag="li" :to="{name: 'AboutMe'}" @click.native="toggleMenu()"><span>关于我</span></router-link>
           </ul>
+          
           <div class="copyright">@ {{copyright}}</div>
         </div>
         </transition>
